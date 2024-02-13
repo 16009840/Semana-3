@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+             <img src="logo-ug.png" alt="LogoUniv">
+        </div>
+        <p>Semana # 3</p>
+        <encabezado>
+           <ul>
+                <li><a href="index.html">Formulario 1</a></li>
+                <li><a href="Formulario2.html">Formulario 2</a></li>
+         </ul>
+        </encabezado>
+
+   </header>
+      
+
+   <div class="ContenedorCuadros">
+           <div class="Cuadro1">
+               <br>
+               <p>Nombre: Erick Fernando Bonilla</p>
+               <p>Carnet: 16009840</p>
+               <p>Curso: Fundamentos de Aplicaciones Web </p>
+               <p>Año: 2024</p>
+           </div>
+
+           <div class="Cuadro3">
+                 <div class="Genero">
+                    <p>GENERO</p>
+                     <form action="#">
+                     <label>
+                      <input name="group1" type="radio" checked />
+                     <span>MASCULINO</span>
+                    </label>
+                    <br>
+                     <label>
+                    <input name="group1" type="radio" />
+                    <span>FEMENINO</span>
+                  </label>
+                    </form>
+                </div>
+                
+                <br>
+                <p1>ESCOJA EL PORCENTAJE DE CONOCIMIENTO</p1>
+                <div class="Porcentaje">
+                <form action="#">
+                    <p class="range-field">
+                      <label for="HTML">HTML</label>
+                      <input type="range" id="test5" min="0" max="100" value="0" />
+                      <br>
+                      <label for="CSS">CSS</label>
+                      <input type="range" id="test6" min="0" max="100" value="0" />
+                    </p>
+                  </form>
+                </div>
+
+                <div class="Botonesgr">
+                    <a class="waves-effect waves-light btn edicion-botong" onclick="clearInput2()"><i class="material-icons right">save</i>GRABAR</a>
+                    <a class="waves-effect waves-light btn edicion-botonr" href="index.html""><i class="material-icons right">arrow_back</i>REGRESAR</a>
+
+                </div>
+
+            
+             </div>
+   </div>
+
+   <script src="./js/script.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

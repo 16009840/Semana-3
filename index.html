@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana #3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    
+    <header>
+         <div class="logo">
+              <img src="logo-ug.png" alt="LogoUniv">
+         </div>
+         <p>Semana # 3</p>
+         <encabezado>
+            <ul>
+                 <li><a href="index.html">Formulario 1</a></li>
+                 <li><a href="Formulario2.html">Formulario 2</a></li>
+          </ul>
+         </encabezado>
+
+    </header>
+       
+
+    <div class="ContenedorCuadros">
+            <div class="Cuadro1">
+                <br>
+                <p>Nombre: Erick Fernando Bonilla</p>
+                <p>Carnet: 16009840</p>
+                <p>Curso: Fundamentos de Aplicaciones Web </p>
+                <p>Año: 2024</p>
+            </div>
+
+            
+            
+            <div class="Cuadro2">
+                <div class="Nombre">
+                    <input id="texto1" type="text" class="NombreT" placeholder="NOMBRE">
+                  </div>
+                  <div class="Apellido">
+                    <input id="texto2" type="text" class="ApellidoT" placeholder="APELLIDO">
+                  </div>
+                  <div class="Direccion">
+                    <input id="texto3" type="text" class="DireccionT" placeholder="DIRECCION">
+                  </div>
+                  <div class="Cumpleaños">
+                    <label>FECHA DE NACIMIENTO</label>
+                    <input id="texto4" type="date" class="CumpleañosT" placeholder="CUMPLEAÑOS">
+                  </div>
+                  <div class="Carnet">
+                    <label>No. DE CARNET</label>
+                    <input id="texto5" type="number" class="CarnetT" placeholder="CARNET">
+                </div>
+                  <div class="Mascotas">
+                    <label>No. DE MASCOTAS</label>
+                    <input id="texto6" type="number" class="MascotasT" placeholder="MASCOTAS">
+                  </div>
+                  
+                  <div class="input-field col s12">
+                    <select id="miSelect" class="browser-default">
+                        <option value="">DIRECCION</option>
+                        <option value="1">GUATEMALA</option>
+                        <option value="2">ESCUINTLA</option>
+                        <option value="3">SANTA ROSA</option>
+                        <option value="4">JUTIAPA</option>
+                        <option value="5">JALAPA</option>
+                    </select>
+                </div>
+
+                <div class="Grabar">
+                    <a class="waves-effect waves-light btn edicion-boton" onclick="clearInput()"><i class="material-icons right">save</i>GRABAR</a>
+                  </div>
+                
+                
+            
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>

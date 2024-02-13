@@ -1,0 +1,277 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #222831; 
+    color: #fff; 
+    padding: 10px 20px; 
+    height: 105px;
+}
+
+.logo {
+    background-color: white;
+    width: 182px;
+}
+
+.logo img {
+    width: 180px; 
+}
+
+header p {
+    font-size: 35px;
+    font-family: Arial;
+}
+
+encabezado ul {
+    list-style-type: none; 
+    
+}
+
+encabezado ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+encabezado ul li:last-child {
+    margin-right: 10px; 
+}
+
+encabezado ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-family: Arial;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+encabezado ul li a:hover {
+    color: #6e829e;
+    background-color: #171b20;
+}
+
+encabezado ul li a:active {
+    background-color: #000000;
+}
+
+.ContenedorCuadros {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.Cuadro1 {
+    margin-top: 3%;
+    margin-left: 3.5%;
+    height: 50vh;
+    width: 20%;
+    display: inline-table;
+    align-items: center;
+    background-color: #393E46; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-family: Arial;
+
+}
+
+.Cuadro2 {
+    margin-top: 3%;
+    margin-right: 3.5%;
+    height: 50vh;
+    width: 70%;
+    display: inline-table;
+    align-items: center;
+    background-color: #393E46; 
+    color: #fff; 
+    padding: 10px 20px; 
+
+}
+
+.Nombre {
+    display: inline-block;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    width: 45%;
+    text-align: center;
+    font-family: Arial;
+    margin-left: 5%;
+}
+
+.Apellido {
+    display: inline-block;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    width: 45%;
+    text-align: center;
+    font-family: Arial;
+    padding-left: 5%;
+    
+}
+
+.Direccion {
+    display: inline-block;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 2%;
+    width: 95%;
+    text-align: center;
+    font-family: Arial;
+    padding-left: 5%;
+}
+
+.Cumpleaños {
+    display: inline-block;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    width: 27.27%;
+    text-align: center;
+    font-family: Arial;
+    margin-left: 5%;
+}
+
+.Carnet {
+    display: inline-block;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    width: 27.27%;
+    text-align: center;
+    font-family: Arial;
+    margin-left: 4%;
+}
+
+.Mascotas {
+    display: inline-block;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    width: 27.27%;
+    text-align: center;
+    font-family: Arial;
+    margin-left: 4%;
+}
+
+.input-field  {
+    display: inline-block;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 3%;
+    width: 90%;
+    text-align: center;
+    font-family: Arial;
+    margin-left: 5%;
+}
+
+
+.Cuadro2 .NombreT {
+    color: white;
+}
+.Cuadro2 .ApellidoT {
+    color: white;
+}
+.Cuadro2 .DireccionT {
+    color: white;
+}
+.Cuadro2 .CumpleañosT {
+    color: white;
+}
+.Cuadro2 .CarnetT {
+    color: white;
+}
+.Cuadro2 .MascotasT {
+    color: white;
+}
+
+.input-field select {
+    color: rgb(255, 255, 255); /* Cambia el color del texto seleccionado a rojo */
+    background-color: #393E46;
+    border-color: none;
+}
+
+.Grabar {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.edicion-boton {
+    width: 95%;
+}
+
+.Cuadro3 {
+    margin-top: 3%;
+    margin-right: 3.5%;
+    height: 50vh;
+    width: 70%;
+    display: inline-table;
+    align-items: center;
+    background-color: #393E46; 
+    color: #fff; 
+    padding: 10px 20px; 
+
+}
+
+.Cuadro3 p{
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: Arial;
+}
+
+.Genero {
+    height: 25%;
+}
+
+.Cuadro3 label span {
+    color: White;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+.Cuadro3 p1{
+    color: White;
+    margin-left: 1%;
+}
+
+.Cuadro3 .Porcentaje {
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.Porcentaje label{
+    color: white;
+    font-family: Arial;
+    font-size: small;
+}
+
+#test5 {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.Cuadro3 .Porcentaje .range-field {
+   margin-top: 0%;
+   margin-left: 5%;
+}
+
+#test6 {
+    width: 50%;
+    margin-left: 6%;
+}
+
+.Botonesgr {
+    width: 90%;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.edicion-botong {
+    width: 30%;
+    margin-left: 15%;
+}
+.edicion-botonr {
+    width: 30%;
+    margin-left: 10%;
+}
+
+
